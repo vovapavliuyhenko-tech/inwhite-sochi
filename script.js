@@ -96,7 +96,7 @@
       labels: ['Было', 'Стало', 'Тон'],
       visits: 'Желтизна', term: 'Симметрия', price: 'Белоснежный',
       quote: '«Улыбка красивая, белоснежная. Налюбоваться не могу»', author: 'Ирина, отзыв о клинике на Яндекс Картах',
-      fit: 'contain', before: 'img/ba2_before.webp', after: 'img/ba2_after.webp', obj: 'img/o_pill.webp', shape: 'veneer'
+      before: 'img/ba2_before.webp', after: 'img/ba2_after.webp', obj: 'img/o_pill.webp', shape: 'veneer'
     },
     {
       title: 'Новая улыбка',
@@ -104,7 +104,7 @@
       labels: ['Было', 'Стало', 'Тон'],
       visits: 'Стёртость', term: 'Форма', price: 'Светлее',
       quote: '«Благодарю за мою новую прекрасную улыбку»', author: 'Лариса, отзыв о клинике на Яндекс Картах',
-      fit: 'contain', before: 'img/ba3_before.webp', after: 'img/ba3_after.webp', obj: 'img/o_tooth.webp', shape: 'tooth'
+      before: 'img/ba3_before.webp', after: 'img/ba3_after.webp', obj: 'img/o_tooth.webp', shape: 'tooth'
     }
   ];
 
