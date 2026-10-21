@@ -96,7 +96,7 @@
       labels: ['Было', 'Стало', 'Тон'],
       visits: 'Желтизна', term: 'Симметрия', price: 'Белоснежный',
       quote: '«Улыбка красивая, белоснежная. Налюбоваться не могу»', author: 'Ирина, отзыв о клинике на Яндекс Картах',
-      before: 'img/ba2_before.webp', after: 'img/ba2_after.webp', obj: 'img/o_pill.webp', shape: 'veneer'
+      before: 'img/ba2v2_before.webp', after: 'img/ba2v2_after.webp', obj: 'img/o_pill.webp', shape: 'veneer'
     },
     {
       title: 'Новая улыбка',
@@ -104,7 +104,7 @@
       labels: ['Было', 'Стало', 'Тон'],
       visits: 'Стёртость', term: 'Форма', price: 'Светлее',
       quote: '«Благодарю за мою новую прекрасную улыбку»', author: 'Лариса, отзыв о клинике на Яндекс Картах',
-      before: 'img/ba3_before.webp', after: 'img/ba3_after.webp', obj: 'img/o_tooth.webp', shape: 'tooth'
+      before: 'img/ba3v2_before.webp', after: 'img/ba3v2_after.webp', obj: 'img/o_tooth.webp', shape: 'tooth'
     }
   ];
 
@@ -139,8 +139,6 @@
       if (window.opal3d) window.opal3d.setShape($('#caseObj'), c.shape);
       $('#imgBefore').src = c.before;
       $('#imgAfter').src = c.after;
-      $('#imgBg').src = c.after;
-      compare.dataset.fit = c.fit || 'cover';
       caseCard.classList.remove('is-switching');
       compare.classList.remove('is-switching');
       sweep();

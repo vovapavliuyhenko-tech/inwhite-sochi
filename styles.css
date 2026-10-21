@@ -2092,7 +2092,5 @@ a, button, label, summary { -webkit-tap-highlight-color: transparent; }
 .footer__item--logo .footer__word { justify-content: center; }
 .cases__note { margin-top: 16px; font-size: 12.5px; color: var(--gray); }
 @media (max-width: 600px) { .footer__brand img { height: 52px; } }
-/* «до/после»: размытый фон под кадром, кадры целиком (без приближения) для широких работ */
-.compare__bg { position: absolute; inset: -8%; width: 116%; height: 116%; object-fit: cover; filter: blur(26px) saturate(1.1) brightness(.92); pointer-events: none; transition: opacity .35s; }
-.compare.is-switching .compare__bg { opacity: 0; }
-.compare[data-fit="contain"] .compare__img { object-fit: contain; }
+/* «до/после»: убираем тонкую рамку по краю исходных фото (одинаково для обоих кадров) */
+.compare__img { transform: scale(1.03); }
